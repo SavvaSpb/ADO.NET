@@ -14,9 +14,10 @@ namespace Test_ADO.NET
             Console.WriteLine("Enter request:");
             zapros = Console.ReadLine();
 
+            
             switch (zapros)
             {
-
+                // enum //
                 case "GetAllTeachers":
 
                     Console.WriteLine("All teachers:");
